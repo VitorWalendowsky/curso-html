@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>não utilizar Style</title>
+    <style>
+        @font-face {
+            font-family: League;
+            src: url("assets/League.otf");
+        }
+
+        body {
+    
+            /* Má pratica utiliar o nome da cor*/
+            background-color: darkblue;
+            /* rgba(0..255, 0..255, 0..255, 0..255) Red Green Blue Alpha (opacidade) */
+            background-color: rgb(000, 000, 139);
+            /*hexadecimal (#[0-9A-F]) #16opções{6} #16opções{3}*/
+            background-color: #00008b;
+        }
+        h1{
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: 'League', 'Arial';
+    
+        }
+        h1:hover{
+            color: #ca1616;
+        }
+        img{
+            border-top-style: solid;
+            border-top-color: #800080;
+            border-top-width: 5px;
+
+            border-right-color: rgb(0, 100, 0);
+            border-right-width: 8px;
+            border-right-style: dashed;
+
+            border-bottom-width: 10px;
+            border-bottom-color: rgb(201, 81, 101);
+            border-bottom-style: groove;
+
+            border-left-style: ridge;
+            border-left-color: rgb(217,217,0);
+            border-left-width: 14px;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Motivos para não jogar LoL</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio cumque quidem repellat culpa nostrum voluptates officiis, nesciunt cum illum iure suscipit, perspiciatis eos! Ea, incidunt amet? Voluptatum cupiditate cum eveniet!</p>
+
+    <img src="https://static1.topspeedimages.com/wordpress/wp-content/uploads/2023/08/street-bob-media-carousel-2.png?q=50&fit=crop&w=1140&h=&dpr=1.5" alt="streetbob">
+
+
+</body>
+</html>

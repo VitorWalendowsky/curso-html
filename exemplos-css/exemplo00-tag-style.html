@@ -46,14 +46,58 @@
             border-left-color: rgb(217,217,0);
             border-left-width: 14px;
 
+            opacity: 0.5;
+            transition: transform 1s;
         }
+
+        img:hover{
+                opacity: 1;
+                transform: scaleX(0.8) scaleY(0.8);
+                transform: scale(0.8);
+            }
+
+
+        /* # serve para selecionar elemento que contém o id
+        exemplo: <img id="banner" src="minha-imagem.jpg">
+        #banner {
+            border-left color: yellow;
+        }*/
+        p#primeiro{
+            color: #adf123;  
+        }
+
+        p#segundo{
+            color: #ff8c00
+        }
+
+        p#terceiro{
+            color: #4169e1
+        }
+
+        p#quarto{
+            color: #a9a9a9;
+        }
+        
+        p#quinto {
+            color: #00ced1
+        }
+        
         
 
     </style>
 </head>
 <body>
     <h1>Motivos para não jogar LoL</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio cumque quidem repellat culpa nostrum voluptates officiis, nesciunt cum illum iure suscipit, perspiciatis eos! Ea, incidunt amet? Voluptatum cupiditate cum eveniet!</p>
+    <p id="primeiro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio cumque quidem repellat culpa nostrum voluptates officiis, nesciunt cum illum iure suscipit, perspiciatis eos! 
+        
+    <p id="segundo">Ea, incidunt amet? Voluptatum cupiditate cum eveniet!
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+    
+    <p id="terceiro">Iste nihil eius voluptates ipsum, aspernatur eaque deserunt deleniti praesentium at, asperiores reprehenderit obcaecati, impedit nemo amet veritatis cumque quo sint eligendi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    
+   <p id="quarto">Doloribus maiores nesciunt ratione sapiente dolor culpa sed distinctio. Voluptas consectetur voluptate eveniet harum tempora itaque, provident minima quas velit adipisci facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+    
+    <p id="quinto">Et quis natus tempore a? Distinctio ea autem, quis deserunt qui consequatur illo, corrupti tenetur vel repellat ab, nemo impedit itaque animi?</p>
 
     <img src="https://static1.topspeedimages.com/wordpress/wp-content/uploads/2023/08/street-bob-media-carousel-2.png?q=50&fit=crop&w=1140&h=&dpr=1.5" alt="streetbob">
 
